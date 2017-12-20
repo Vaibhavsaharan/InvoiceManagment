@@ -71,6 +71,7 @@
             this.butHome.TabIndex = 3;
             this.butHome.Text = "Home";
             this.butHome.UseVisualStyleBackColor = true;
+            this.butHome.Click += new System.EventHandler(this.butHome_Click);
             // 
             // butEditProd
             // 
@@ -80,6 +81,7 @@
             this.butEditProd.TabIndex = 4;
             this.butEditProd.Text = "Edit Product";
             this.butEditProd.UseVisualStyleBackColor = true;
+            this.butEditProd.Click += new System.EventHandler(this.butEditProd_Click);
             // 
             // butDelProd
             // 
@@ -98,6 +100,7 @@
             this.butAddProd.TabIndex = 6;
             this.butAddProd.Text = "Add Product";
             this.butAddProd.UseVisualStyleBackColor = true;
+            this.butAddProd.Click += new System.EventHandler(this.butAddProd_Click);
             // 
             // Products
             // 

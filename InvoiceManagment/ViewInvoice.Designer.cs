@@ -45,6 +45,7 @@
             this.butInv.TabIndex = 23;
             this.butInv.Text = "Invoice";
             this.butInv.UseVisualStyleBackColor = true;
+            this.butInv.Click += new System.EventHandler(this.butInv_Click);
             // 
             // butHome
             // 
@@ -54,6 +55,7 @@
             this.butHome.TabIndex = 22;
             this.butHome.Text = "Home";
             this.butHome.UseVisualStyleBackColor = true;
+            this.butHome.Click += new System.EventHandler(this.butHome_Click);
             // 
             // butSearch
             // 

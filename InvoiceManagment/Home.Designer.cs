@@ -42,6 +42,7 @@
             this.butCus.TabIndex = 0;
             this.butCus.Text = "Customer";
             this.butCus.UseVisualStyleBackColor = true;
+            this.butCus.Click += new System.EventHandler(this.butCus_Click);
             // 
             // butProd
             // 
@@ -61,6 +62,7 @@
             this.butInvoices.TabIndex = 2;
             this.butInvoices.Text = "Invoices";
             this.butInvoices.UseVisualStyleBackColor = true;
+            this.butInvoices.Click += new System.EventHandler(this.butInvoices_Click);
             // 
             // label1
             // 

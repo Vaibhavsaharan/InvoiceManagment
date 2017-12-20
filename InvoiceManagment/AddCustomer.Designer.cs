@@ -147,6 +147,7 @@
             this.butCus.TabIndex = 16;
             this.butCus.Text = "Customers";
             this.butCus.UseVisualStyleBackColor = true;
+            this.butCus.Click += new System.EventHandler(this.butCus_Click);
             // 
             // butHome
             // 
@@ -156,6 +157,7 @@
             this.butHome.TabIndex = 15;
             this.butHome.Text = "Home";
             this.butHome.UseVisualStyleBackColor = true;
+            this.butHome.Click += new System.EventHandler(this.butHome_Click);
             // 
             // dateTimePicker1
             // 

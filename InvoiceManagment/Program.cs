@@ -16,7 +16,7 @@ namespace InvoiceManagment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AddCustomer());
+            Application.Run(new Home());
         }
     }
 }

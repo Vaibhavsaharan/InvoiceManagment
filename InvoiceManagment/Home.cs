@@ -19,7 +19,23 @@ namespace InvoiceManagment
 
         private void butProd_Click(object sender, EventArgs e)
         {
-           
+            this.Hide();
+            Products prds = new Products();
+            prds.Show();
+        }
+
+        private void butCus_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Customers cus = new Customers();
+            cus.Show();
+        }
+
+        private void butInvoices_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Invoices invo = new Invoices();
+            invo.Show();
         }
     }
 }

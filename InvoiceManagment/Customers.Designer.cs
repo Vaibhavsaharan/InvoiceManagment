@@ -44,6 +44,7 @@
             this.butAddCus.TabIndex = 13;
             this.butAddCus.Text = "Add Customer";
             this.butAddCus.UseVisualStyleBackColor = true;
+            this.butAddCus.Click += new System.EventHandler(this.butAddCus_Click);
             // 
             // butHome
             // 
@@ -53,6 +54,7 @@
             this.butHome.TabIndex = 10;
             this.butHome.Text = "Home";
             this.butHome.UseVisualStyleBackColor = true;
+            this.butHome.Click += new System.EventHandler(this.butHome_Click);
             // 
             // butSearch
             // 

@@ -78,6 +78,7 @@
             this.butHome.TabIndex = 17;
             this.butHome.Text = "Home";
             this.butHome.UseVisualStyleBackColor = true;
+            this.butHome.Click += new System.EventHandler(this.butHome_Click);
             // 
             // dataGridView2
             // 
@@ -105,6 +106,7 @@
             this.butViewAlInv.TabIndex = 30;
             this.butViewAlInv.Text = "View All Invoices";
             this.butViewAlInv.UseVisualStyleBackColor = true;
+            this.butViewAlInv.Click += new System.EventHandler(this.butViewAlInv_Click);
             // 
             // textBox1
             // 

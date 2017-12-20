@@ -153,6 +153,7 @@
             this.butProd.TabIndex = 16;
             this.butProd.Text = "Products";
             this.butProd.UseVisualStyleBackColor = true;
+            this.butProd.Click += new System.EventHandler(this.butProd_Click);
             // 
             // butHome
             // 
@@ -162,6 +163,7 @@
             this.butHome.TabIndex = 15;
             this.butHome.Text = "Home";
             this.butHome.UseVisualStyleBackColor = true;
+            this.butHome.Click += new System.EventHandler(this.butHome_Click);
             // 
             // label1
             // 

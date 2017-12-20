@@ -21,5 +21,19 @@ namespace InvoiceManagment
         {
 
         }
+
+        private void butHome_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home home = new Home();
+            home.Show();
+        }
+
+        private void butCus_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Customers cus = new Customers();
+            cus.Show();
+        }
     }
 }
