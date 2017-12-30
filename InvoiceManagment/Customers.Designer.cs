@@ -32,8 +32,8 @@
             this.butHome = new System.Windows.Forms.Button();
             this.butSearch = new System.Windows.Forms.Button();
             this.txtbxSearch = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.grdCustomers = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.grdCustomers)).BeginInit();
             this.SuspendLayout();
             // 
             // butAddCus
@@ -72,13 +72,13 @@
             this.txtbxSearch.Size = new System.Drawing.Size(285, 20);
             this.txtbxSearch.TabIndex = 8;
             // 
-            // dataGridView1
+            // grdCustomers
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(37, 55);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(510, 150);
-            this.dataGridView1.TabIndex = 7;
+            this.grdCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdCustomers.Location = new System.Drawing.Point(37, 55);
+            this.grdCustomers.Name = "grdCustomers";
+            this.grdCustomers.Size = new System.Drawing.Size(510, 150);
+            this.grdCustomers.TabIndex = 7;
             // 
             // Customers
             // 
@@ -89,10 +89,10 @@
             this.Controls.Add(this.butHome);
             this.Controls.Add(this.butSearch);
             this.Controls.Add(this.txtbxSearch);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.grdCustomers);
             this.Name = "Customers";
             this.Text = "Customers";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdCustomers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,6 +104,6 @@
         private System.Windows.Forms.Button butHome;
         private System.Windows.Forms.Button butSearch;
         private System.Windows.Forms.TextBox txtbxSearch;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView grdCustomers;
     }
 }
